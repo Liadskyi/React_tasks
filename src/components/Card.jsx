@@ -25,18 +25,7 @@ function Card(props) {
             <div key={elem.id} className={props.theme === false ? "card" : "dark_card"}  onClick={()=>{props.SetChoisenItem({item: "extendedCard",inf:elem.id-1 })}}>
                 <p className={props.theme === false ? "title" : "dark_title"}>{elem.name}</p>
                 <div className="content">
-                    {/* {elem.tasks.map(el => 
-                        <div key={el.place}>
-                            <p>{done_count()}</p>
-                            {console.log(props.info)}
-                            {el.place == elem.tasks.length - 6 ?<p>...</p>:""}
-                            {
-                                el.place > elem.tasks.length - 6 ?
-                                <p>{el.status == "new" ? <p className="new">{el.text} {el.time}</p> : el.status=="done" ? <p className="done">{el.text} {el.time}</p>:""
-                                }</p>
-                                :<p>{}</p>
-                            } 
-                        </div>)} */}
+                    
                     <p className={props.theme === false ? "" : "dark_p"} id="text">you have {new_count(elem)} more {new_count(elem) == 1 ? "task": "tasks"}</p>
                     <p className={props.theme === false ? "" : "dark_p"}>you have done {done_count(elem)} {done_count(elem) == 1 ? "task": "tasks"}</p>
                 </div>

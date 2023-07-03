@@ -40,13 +40,7 @@ function App() {
     SetInfo(Info.map(item => item.id != id ? item : changedItem))
     changedItem = null
   }
-  // let fordel = null
-  // function del(id){
-  //   fordel = Info[0]
-  //   fordel.tasks.map(child => child.place == id ?  "": child)
-  //   SetInfo(Info.map(item => item.id == 1 ? fordel : item))
-  //   fordel=null
-  // }
+ 
   function darkMode(){
     let main = $("body")
     if(theme){

@@ -34,7 +34,7 @@ function ExtendedCard(props) {
                 
                 
             </div>)}
-            {/* <p>{props.info[props.choisenItem.inf].note}</p> */}
+           
             
             
         </div>
