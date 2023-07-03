@@ -1,0 +1,109 @@
+.dark_body{
+    background: rgba(88,88,88, 1.0);
+
+}
+.dark_card{
+    background: #316063;
+    height: auto;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.4);
+}
+.dark_card:hover{
+    box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.40);
+}
+.dark_p{
+    color: rgb(192, 192, 192);
+}
+.dark_title{
+    color:  rgb(192, 192, 192);
+    font-size: 16pt;
+    text-align: center;
+    margin: 5px;
+}
+.dark_back{
+
+}
+.dark_back{
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    color: rgb(192, 192, 192);
+}
+.dark_back:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.dark_bigName{
+    font-size: 20pt;
+    margin: 8px;
+    font-weight: 700;
+    color: rgb(192, 192, 192);
+}
+.dark_new{
+    color: rgb(192, 192, 192);
+    transition-duration: 0.3s;
+    flex-shrink: 4;
+    word-wrap: break-word;  
+    max-width: 80%;
+}
+.dark_done{
+    color: red;
+    transition-duration: 0.3s;
+    flex-shrink: 4;
+    word-wrap: break-word;  
+    max-width: 80%;
+}
+.dark_bin{
+
+}
+.dark_bin{
+    color: rgb(192, 192, 192);
+    cursor: pointer;
+    margin-left: 10px;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    flex-shrink: 1;
+}
+.dark_bin:hover{
+    color: red;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.dark_openModal{
+    background-color: #316063;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14pt;
+    padding: 10px;
+    transition-duration: 0.3s;
+    color: rgb(192, 192, 192);
+}
+.dark_openModal:hover{
+   scale: 1.03;
+}
+.dark_modal{
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    box-shadow: 0px 0px 17px 1px rgba(122, 122, 122, 1);
+    padding: 10px;
+    background-color:  rgba(170,170,170, 1.0);;
+    color: #253025;
+    width: 200px;
+    height: auto;
+}
+.dark_btn{
+    background-color: #316063;
+    padding: 7px 10px 7px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition-duration: 0.3s;
+    color: rgba(170,170,170, 1.0);
+}
+.dark_btn:hover{
+    scale: 1.03;
+    background-color: rgb(0, 108, 0);
+}
+.dark_close:hover{
+    background-color: rgb(176, 0, 0);
+}
