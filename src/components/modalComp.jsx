@@ -21,7 +21,7 @@ function ModalComp(props) {
         place: props.info[props.choisenItem.inf].tasks[props.info[props.choisenItem.inf].tasks.length-1].place + 1
     
        
-        // props.info[props.choisenItem.inf].tasks[props.info[props.choisenItem.inf].tasks.length-1].place-1,
+       
        
     })
     setTimeout(()=>{

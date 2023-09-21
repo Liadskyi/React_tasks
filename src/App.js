@@ -1,17 +1,14 @@
 import "../src/styles/style.css"
 import "../src/styles/darkmode.css"
-import Card from "./components/Card"
 import React, { useState } from "react";
-import ReactDOM from "react-dom/client";
-import ExtendedCard from "./components/ExtendedCard";
 import Choise from "./components/choise";
 import Head from "./components/Head";
 import $ from "jquery"
-import Modal from "./components/Modal";
+
 
 function App() {
   const [Info, SetInfo] = useState([
-    {id: 1, name: "Monday", tasks: [{place: 0}], note:"one time i just wanted to eat"},
+    {id: 1,name: "Monday", tasks: [{place: 0, status: "del"}], note:""},
     {id: 2,name: "Tuesday", tasks: [{place: 0}], note:""},
     {id: 3,name: "Wednesday", tasks: [{place: 0}], note:""},
     {id: 4,name: "Thursday", tasks: [{place: 0}], note:""},

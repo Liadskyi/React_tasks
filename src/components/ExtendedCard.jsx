@@ -17,8 +17,8 @@ function ExtendedCard(props) {
             <div></div>
         </div>
         <div className="bigTaskCont">{props.info[props.choisenItem.inf].tasks.map(elem => 
+           
             <div className="bigTask" key={elem.place}>
-            {/* tasks.indexOf(elem) */}
                 { elem.status == "new" ? 
                 <div > 
                     <p className={props.theme === false ? 'new' : "dark_new"}  onClick={()=>{props.done(props.info[props.choisenItem.inf].id ,props.info[props.choisenItem.inf].tasks.indexOf(elem), "done")}}>{elem.text} {elem.time}</p>
@@ -33,7 +33,8 @@ function ExtendedCard(props) {
                 ""}
                 
                 
-            </div>)}
+            </div>
+            )}
            
             
             
@@ -43,7 +44,7 @@ function ExtendedCard(props) {
       <div className='modalOpenCont'><div className={props.theme === false ? 'openModal' : 'dark_openModal'} onClick={handleOpen}>add task</div></div>
       <Modal theme={props.theme} info={props.info} changeInfo={props.changeInfo} choisenItem={props.choisenItem} isOpen={isOpen} onClose={handleClose}/>
     
-        {/* <ModalComp theme={props.theme} info={props.info} changeInfo={props.changeInfo} choisenItem={props.choisenItem}/> */}
+        
       
     
         
